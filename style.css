@@ -98,9 +98,7 @@ h4{
 }
 .image-box{
     width: 35%;
-
-    border: 1px solid transparent;
-    border-radius: 5px;
+    
     margin-right: 100px;
     
 }
@@ -108,10 +106,21 @@ h4{
     width: 100%;
    
 }
+#musk-image{
+    border: 1px solid transparent;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+   
+}
 .blog{
     width: 50%;
     margin-right: 100px;
 
+}
+#musk-blog{
+    margin-left: 100px;
+    margin-top: 150px;
 }
 footer{
     background-color: black;
@@ -121,4 +130,7 @@ footer{
     text-align: center;
     padding: 10px 0px;
 
+}
+footer small{
+    color: gray;
 }
